@@ -1,0 +1,158 @@
+*{
+    color: red;
+    background-color: black;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.allpage{
+    margin-top: 150px;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    height: 700px;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.me{
+    width: 95%;
+    display: flex;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.fotominha{
+    width: auto;
+    border-radius: 100px;
+    height: 100%;
+    
+    
+}
+
+.foto{
+    width: 40%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.profile{
+    width: 60%;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.sobremim{
+    font-size: 18px;
+    width: 100%;
+}
+
+aside{
+    width: 50%;
+    align-items: center;
+    align-content: center;
+}
+
+.imagemdev{
+    width: 99%;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+ 
+.aprendizado{
+    width: 95%;
+    display: flex;
+    height: 500px;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.titulojasei{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+li{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.tituloquerosaber{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.relato{
+    width: 100%;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.titulorelato{
+    text-align: center;
+    font-size: 24px;
+}
+
+.paragraforelato{
+    text-align: center;
+    font-size: 18px;
+}
+
+.tabela{
+    width: 100%;
+}
+
+table{
+    text-align: center;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 0 0 10px 0;
+}
+
+th{
+    border: 1px solid red;
+    font-size: 25px;
+    height: 50px;
+}
+
+td{
+    border: 1px solid red;
+    font-size: 20px;
+}
+
+footer{
+    width: auto;
+    text-align: center;
+    border: 3px solid red;
+    margin-top: 20px;
+    font-size: 22px;
+}
